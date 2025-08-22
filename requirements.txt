@@ -18,12 +18,12 @@ build==1.2.2.post1
 twine==6.0.1
 
 # Tests & Linting
-coverage[toml]==7.10.4
-cryptography==45.0.6
-mypy==1.13.0
-pytest==8.4.1
-ruff==0.8.1
-trio==0.27.0
-trio-typing==0.10.0
-trustme==1.2.0
-uvicorn==0.32.1
+coverage[toml]
+cryptography
+mypy
+pytest
+ruff
+trio
+trio-typing
+trustme
+uvicorn
