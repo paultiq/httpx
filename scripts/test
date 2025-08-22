@@ -10,6 +10,7 @@ set -ex
 if [ -z $GITHUB_ACTIONS ]; then
     scripts/check
 fi
+export COVERAGE_CORE=sysmon
 
 ${PREFIX}coverage run -m pytest --verbose "$@"
 
