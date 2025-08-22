@@ -12,7 +12,7 @@ if [ -z $GITHUB_ACTIONS ]; then
 fi
 export COVERAGE_CORE=sysmon
 
-${PREFIX}coverage run -m pytest "$@"
+${PREFIX}pytest --verbose "$@"
 
 if [ -z $GITHUB_ACTIONS ]; then
     scripts/coverage
